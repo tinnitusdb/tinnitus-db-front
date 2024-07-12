@@ -30,6 +30,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
           FOLDER: tinnitusDBApp/dist/tinnitusDBApp  # adjust the path to your built Angular app
