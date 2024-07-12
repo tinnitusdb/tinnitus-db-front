@@ -32,4 +32,4 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: tinnitusDBApp/dist/  # adjust the path to your built Angular app
+          FOLDER: tinnitusDBApp/dist/tinnitusDBApp  # adjust the path to your built Angular app
